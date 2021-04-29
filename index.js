@@ -17,3 +17,4 @@ const uppercaseNames = for (const name of names) {
 // yourName is a hacky variable as it seems to change the list positioning, a better way would be:
 // yourName = prompt(`What is your name???`)
 // pushYourName = names.push(yourName)
+
