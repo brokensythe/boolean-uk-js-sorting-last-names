@@ -18,5 +18,10 @@ const nameIndexPosition = names.indexOf(yourName)
 // yourName = prompt(`What is your name???`)
 // pushYourName = names.push(yourName)
 
+const upperCaseNames = []
+
+for (const name of names) {
+         upperCaseNames.push(name.toUpperCase())
+}
 
 
