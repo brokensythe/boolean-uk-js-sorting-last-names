@@ -14,5 +14,6 @@ const uppercaseNames = for (const name of names) {
 
 // indexing number === names.indexOf("Mason") or any other name
 
-
-
+// yourName is a hacky variable as it seems to change the list positioning, a better way would be:
+// yourName = prompt(`What is your name???`)
+// pushYourName = names.push(yourName)
